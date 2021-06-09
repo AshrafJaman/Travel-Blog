@@ -18,7 +18,7 @@ a {
     justify-content: center;
 }
 #hero{
-    background-image: url(images/featured.jpg);
+    background-image: url(images/Featured.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
