@@ -1,25 +1,58 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
-html{
-    font-size: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+.wrapper{
+background: url(bg-img.jpg) no-repeat;
+background-size: cover;
+height: 100vh
 }
-a {
-    text-decoration:none;
-}
-.container {
-    min-height: 100vh;
+.navbar{
+    height:80px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    bacckground: rgba(0,0,0,0.4);
 }
-#hero{
-    background-image: url(images/Featured.jpg);
-    background-size: cover;
-    background-position: top center;
-    position: relative;
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display:inline-block;
+    line height: 80px;
+}
+navbar ul li a{
+    text-decoration: none;
+    colo: white;
+    font-size: 20px;
+    apdiing: 6px 13px;
+    font-family: 'Roboto' , sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
 }
