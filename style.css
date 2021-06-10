@@ -11,7 +11,7 @@ height: 100vh
 .navbar{
     height:80px;
     width: 100%;
-    bacckground: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.4);
 }
 .logo{
     width: 140px;
@@ -26,13 +26,13 @@ height: 100vh
     list-style: none;
     margin: 0 8px;
     display:inline-block;
-    line height: 80px;
+    line-height: 80px;
 }
-navbar ul li a{
+.navbar ul li a{
     text-decoration: none;
-    colo: white;
+    color: white;
     font-size: 20px;
-    apdiing: 6px 13px;
+    padding: 6px 13px;
     font-family: 'Roboto' , sans-serif;
     transition: .4s;
 }
