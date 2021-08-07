@@ -34,7 +34,7 @@
 .navbar ul li a{
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
-	color: rgb(195, 195, 195);
+	color: white;
 	padding: 6px 13px;
 	text-decoration: none;
 	transition: .4s;
@@ -43,31 +43,6 @@
 .navbar ul li a:hover{
 	background: red;
 	border-radius: 2px;
-}
-
-/* Style the search box inside the navigation bar */
-.navbar input[type=text] {
-	float: right;
-	padding: 6px;
-	border: none;
-	margin-top: 8px;
-	margin-right: 16px;
-	font-size: 17px;
-  }
-  
-  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-  @media screen and (max-width: 600px) {
-	.navbar a, .navbar input[type=text] {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	  width: 100%;
-	  margin: 0;
-	  padding: 14px;
-	}
-	.navbar input[type=text] {
-	  border: 1px solid #ccc;
-	}
 }
 .wrapper .center{
 	position: absolute;
@@ -78,7 +53,7 @@
 	user-select: none;
 }
 .center h1{
-	color: rgb(7, 6, 6);
+	color: white;
 	font-size: 70px;
 	width: 900px;
 	font-weight: bold;
@@ -98,7 +73,6 @@ flex-wrap: wrap;
 {
 flex:0 0 auto;
 width:50%;
-background-color: rgb(231, 225, 225);
 }
 .section-container .columns.image
 {
@@ -115,7 +89,6 @@ padding:40px 50px;
 font-weight:700;
 font-size:33px;
 margin-bottom:20px;
-color: rgb(18, 68, 11);
 }
 .section-container .columns.content .content-container p
 {
@@ -152,4 +125,3 @@ padding:20px 35px;
 margin-bottom:5px;
 }
 }
-
