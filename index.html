@@ -15,12 +15,12 @@
        <nav>
          <ul>
            <li class="current"><a href="#">Home</a></li>
-           <li><a href="#">About</a></li>
-           <li><a href="#">Services</a></li>
+           <li><a href="#main-part">About</a></li>
          </ul>
        </nav>
      </div>
    </header>
+
    <section id="showcase">
       <div class="container">
         <h1>Explore Awesome Places of Bangladesh</h1>
@@ -30,9 +30,9 @@
       <div class="container">
         <h1>Suscribe to our Newsletter</h1>
         <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
+         <input type="email" value="" name="email" placeholder="email address" required>
+         <input type="submit" value="Subscribe" name="subscribe">
+      </form>
       </div>
     </section>
     <section id="boxes">
@@ -50,12 +50,12 @@
         <div class="box">
           <img src="rent car.jpg">
           <h3>Car Rental</h3>
-          <p>Our car retal guide will help you to rent a car conveniently. </p>
+          <p>Our car retal guide will help you to rent car conveniently. </p>
         </div>
       </div>
     </section>
 
-<section class="main part">
+<section class="main part" id="main-part">
     <div class="section-container">
         <div class="columns image" style="background-image:url('Coxs-Bazar.jpg')">
            &nbsp;
@@ -172,7 +172,7 @@
  </div>
  <div class="columns content">
     <div class="content-container">
-       <h5>Ratargul Swam Forest</h5>
+       <h5>Ratargul Swamp Forest</h5>
        <p>
          Ratargul Swamp Forest is a fresh water marshland forest located close to river Goain, in Gowainghat Upazila of Sylhet District. This forest is engulfed with freshwater in most of the seasons. This evergreen forest gets over flooded during the rainy season. Different local fish are available here. It’s the terrain of different creatures’ like snakes, monkeys, lizards, insects & birds. This evergreen forest is situated by the river Goain and linked with the canal named Chengir Khal. Most of the trees grow here are Pongamia pinnata (Koroch tree). The forest goes under 20-30 feet water in the rainy season. Rest of the year the water level is about 10 feet deep.      </p>
     </div>
@@ -194,6 +194,42 @@
 </div>
 </div>
 </section>
+
+<section class="get-in-touch">
+   <h1 class="title">Get in touch</h1>
+   <h4>Have a question or just want to get in touch? Let's chat.</h4> 
+   <div id="contact-form">
+         <p id="failure">Oopsie...message not sent.</p>  
+         <p id="success">Your message was sent successfully. Thank you!</p>
+   
+            <form>
+            <div>
+               <label for="name">
+                  <span class="required">Name: *</span> 
+                  <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1"  />
+               </label> 
+            </div>
+            <div>
+               <label for="email">
+                  <span class="required">Email: *</span>
+                  <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+               </label>  
+            </div>
+         
+            <div>		          
+               <label for="message">
+                  <span class="required">Message: *</span> 
+                  <textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+               </label>  
+            </div>
+            <div>		           
+               <button name="submit" type="submit" id="submit" >SEND</button> 
+            </div>
+            </form>
+   
+      </div>
+</section>
+
 <Section>
    <div class="footer-container">
       <div class="footer">
@@ -211,5 +247,8 @@
       </div>
    </div>
 </Section>
+
+
+
 </body>
 </html>
